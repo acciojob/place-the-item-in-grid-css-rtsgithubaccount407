@@ -1,0 +1,13 @@
+.holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* Two equal columns */
+    grid-template-rows: repeat(2, 1fr);     /* Two equal rows */
+    grid-gap: 5px;                          /* Adjust this gap as needed */
+    width: 200px;                          /* Total width of the grid container */
+    height: 200px;                         /* Total height of the grid container */
+}
+.item {
+    /* Optional styles for the grid items, e.g., to set background colors or borders */
+    border: 1px solid #000;
+    padding: 10px;
+}
